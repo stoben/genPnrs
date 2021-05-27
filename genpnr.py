@@ -9,7 +9,9 @@ def main(arg):
     #     print("Invalid number of arguments")
     #     return        
     # else:
-    generateFile(datetime.datetime(1973,1,1), datetime.datetime(1974,1,1))
+    
+    #edit datespan here to generate numbers from to date (here 1970 to 1980)
+    generateFile(datetime.datetime(1970,1,1), datetime.datetime(1980,1,1))
 
 
 def generateFile(start, stop:datetime):
